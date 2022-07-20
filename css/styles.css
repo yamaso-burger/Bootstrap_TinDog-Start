@@ -3,8 +3,11 @@ h1 {
     font-weight:900;
     font-size: 3rem;
     line-height: 1.5;
-    color: white;
     text-shadow: black 1px 1px;
+}
+
+body {
+    font-family: 'Montserrat-ExtraBold';
 }
 
 a {
@@ -20,8 +23,67 @@ a {
 
 #title {
     background-color: #ff4c68;
+    color: #fff;
+}
+
+
+/* Navigation bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
 }
 
 .navbar-brand {
     font-size: 2rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* Download buttons */
+.dl-btn {
+    margin-right: 10px;
+}
+
+/* Title image */
+#title-img {
+    width: 60%;
+    transform: rotate(15deg);
+}
+
+/* Features */
+#features {
+    padding: 10% 10%;
+}
+
+.features-item {
+    text-align: center;
+    padding: 0 5%;
+}
+
+.feature-icon {
+    color: #ef8172;
+    padding: 0 0 20px 0;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+.features-item > h3 {
+    font-family:'Montserrat-ExtraBold', sans-serif;
+    font-weight:600;
+    font-size: 1.5rem;
+}
+
+.features-item > p {
+    color: #8f8f8f;
+    font-size: 0.8rem;
 }
