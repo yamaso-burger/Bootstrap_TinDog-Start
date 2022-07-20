@@ -1,4 +1,9 @@
-
+h1 {
+    font-family:'Montserrat-ExtraBold', sans-serif;
+    font-weight:800;
+    font-size: 3rem;
+    line-height: 1.5;
+}
 
 #title {
     background-color: #ff4c68;
