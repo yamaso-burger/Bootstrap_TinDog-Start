@@ -162,3 +162,37 @@ a {
         text-align:center;
     }
 }
+
+/* Call to Action */
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 15%;
+}
+
+#cta > h3 {
+    font-family: "Montserrat-ExtraBold", sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.dl-buttons {
+    padding-top: 40px;
+}
+
+/* footer */
+#footer {
+    text-align: center;
+    padding: 7% 15% 0 15%;
+    background-color: #fff;
+}
+
+#copy-right {
+    color: grey;
+
+}
+
+.footer-icon {
+    margin: 20px 10px;
+}
